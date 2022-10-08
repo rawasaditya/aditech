@@ -11,9 +11,9 @@ const ErrorAlert = ({ message, display }) => {
           <BiErrorCircle size={20} />
           <span>{message}</span>
         </div>
-        <div class="flex-none">
+        <div className="flex-none">
           <button
-            class="btn btn-sm btn-ghost"
+            className="btn btn-sm btn-ghost"
             onClick={() => setstate((prev) => !prev)}
           >
             Close

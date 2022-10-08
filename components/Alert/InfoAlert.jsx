@@ -9,8 +9,8 @@ const ErrorAlert = ({ message, display }) => {
           <AiOutlineInfoCircle size={20} />
           <span>{message}</span>
         </div>
-        <div class="flex-none">
-          <button class="btn btn-sm btn-ghost" onClick={()=>setstate(prev=>!prev)}>Close</button>
+        <div className="flex-none">
+          <button className="btn btn-sm btn-ghost" onClick={()=>setstate(prev=>!prev)}>Close</button>
         </div>
       </div>
     </div>

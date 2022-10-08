@@ -11,6 +11,11 @@ const bookSchema = new Schema(
       type: String,
       required: [true, "thumbnail is required"],
     },
+    slug:{
+      type: String,
+      required: true,
+      unique:true
+    }
   },
   {
     timestamps: true,

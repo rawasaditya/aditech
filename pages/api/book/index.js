@@ -16,7 +16,7 @@ export default async function books(req, res) {
                 record
             })
         }
-    })
+    }).sort({createdAt:-1})
 
   } else {
     res.status(400).json({
